@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
       </div>
       <hr className="border-[1px] border-gray-600  w-[80%] mx-auto mt-4" />
-      <div className="md:px-24 sm:px-11 py-5 flex justify-between text-sm ">
+      <div className="md:px-24 sm:px-11 py-1 flex justify-between text-sm ">
         <div className="w-1/3 text-start space-x-4">
           <button>Privacy & Terms</button>
           <button>Contact Us</button>

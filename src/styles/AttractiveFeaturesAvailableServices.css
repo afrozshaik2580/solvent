@@ -166,7 +166,7 @@ border: #FFF solid 2px;
   align-items: center;
   justify-content: space-evenly;
 }
-.container {
+.main-container {
   position: relative;
   text-align: justify;
 }
@@ -182,7 +182,11 @@ mix-blend-mode: screen;
   position: absolute;
   top: 35%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -75%);
+  -webkit-transform: translate(-50%, -75%);
+  -moz-transform: translate(-50%, -75%);
+  -ms-transform: translate(-50%, -75%);
+  -o-transform: translate(-50%, -75%);
 }
 .image-container-header{
   text-align: center;
@@ -197,7 +201,7 @@ mix-blend-mode: screen;
   gap: 30px;
 }
 .image-button-1{
-  padding: 5px 15px;
+  padding: 5px 15px 8px;
   background-color: #EF443B;
   font-weight: bolder;
   color: #FFF;
@@ -206,7 +210,7 @@ mix-blend-mode: screen;
   border-radius: 20px;
 }
 .image-button-2{
-  padding: 5px 15px;
+  padding: 5px 15px 8px;
   font-weight: bolder;
   background-color: #160E33;
   color: #FFF;

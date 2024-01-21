@@ -48,7 +48,7 @@ export default function AnalysisSection() {
         </div>
       </div>
       <div>
-        <button className="border border-[#ef443b] p-4 font-semibold rounded-full hover:shadow-[1px_1px_10px_#ef443b] hover:text-[#ef443b]">
+        <button className="border-[1px] border-[#ef443b] p-4 font-semibold rounded-full hover:shadow-[1px_1px_10px_#ef443b] hover:text-[#ef443b]">
           STRATEGIC GROWTH INSIGHTS
         </button>
       </div>

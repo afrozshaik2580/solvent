@@ -42,11 +42,11 @@ export function CardContainer({ imageUrl, cardtitle, cardSubtitle, cardBody }) {
   function ImageCard(){
     return(
       <>
-      <div className="container">
+      <div className="main-container">
       <img src="src\assets\bgcomp.png" alt="" className="image-container" />
       <div className='image-container-body'>
-       <h1 className='image-container-header'>By incorporating these features, you can create a website that not only enhances Solvent's brand presence but also generates 
-        high-quality leads and facilitates potential online sales.</h1>
+       <h2 className='image-container-header'>By incorporating these features, you can create a website that not only enhances Solvent's brand presence but also generates 
+        high-quality leads and facilitates potential online sales.</h2>
       </div>
       <div className='image-buttons-container'>
         <button className='image-button-1'>Elevate Our Presence</button>

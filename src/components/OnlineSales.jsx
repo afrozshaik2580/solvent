@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "./styles/OnlineSalesStyles.css";
+import "../styles/OnlineSalesStyles.css";
 
 export default function GetStarted() {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -36,8 +36,8 @@ export default function GetStarted() {
   return (
     <div className={`bg-cl ${isFlipped ? 'flipped' : ''}`}>
       <div className="container mr-bt">
-        <p className="mr-sec2 fnt-sec2">Lead Generation and Online Sales</p>
-        <p className='fnt-sec3'>Tincidunt id nibh orci nibh just nulla elementum, sed vel.</p>
+        <p className="mr-sec2 fnt-sec2 text-center">Lead Generation and Online Sales</p>
+        <p className='fnt-sec3 text-center'>Tincidunt id nibh orci nibh just nulla elementum, sed vel.</p>
         <div className="row mr-sec2txt2 mr-sec2-bt dp-rw">
           <div className="col-lg-7 col-md-12 col-sm-12 text-center col-12 dp-dk">
             <div className="img-st2">

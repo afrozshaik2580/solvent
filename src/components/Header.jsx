@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./styles/HeaderStyles.css";
+import "../styles/HeaderStyles.css";
 
 export default function Header() {
   // const [hamburgerOpen, setHamburgerOpen] = useState(false);

@@ -37,21 +37,21 @@ export default function UsersSection() {
   // </div>;
   return (
     <div className="py-6 px-6 w-screen h-[600px] text-center overflow-hidden">
-      <div className="h-1/3 flex flex-col justify-evenly mb-5">
+      <div className="h-1/3 flex flex-col justify-evenly pb-5">
         <h1 className="text-5xl font-extrabold">30 Million Users Worldwide</h1>
         <p className="text-lg">
           Tincidunt id nibh orci nibh justo. Purus et turpis nulla elementum,
           sed vel.
         </p>
       </div>
-      <div className="mask w-4/5 h-2/3 mx-auto overflow-hidden">
+      <div className="w-4/5 h-2/3 mx-auto overflow-hidden">
         <div className="w-full h-full inline-block relative animate-[t_10s_linear_infinite]">
           <div content className="flex w-full h-full whitespace-nowrap">
             {users.map((user, index) => (
               <UserCard user={user} key={index} />
             ))}
           </div>
-          <div className="flex w-full h-full whitespace-nowrap absolute left-[1000px] top-0">
+          <div className="flex w-full h-full whitespace-nowrap absolute left-[1050px] top-0">
             {users.map((user, index) => (
               <UserCard user={user} key={index} />
             ))}
@@ -65,7 +65,7 @@ export default function UsersSection() {
 function UserCard({ user }) {
   return (
     <div
-      className={`w-[300px] mx-4 h-full flex flex-col flex-none justify-evenly border border-[#ef443b] rounded-3xl shadow-[1px_1px_10px_#ef443b]`}
+      className={`w-[300px] mx-4 h-full flex flex-col flex-none justify-evenly border-[1px] border-[#ef443b] rounded-3xl shadow-[1px_1px_10px_#ef443b]`}
     >
       <div className="flex items-center justify-center">
         <img className="w-16" src={quote} alt="" />

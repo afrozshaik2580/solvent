@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./styles/GetStartedStyles.css";
+import "../styles/GetStartedStyles.css";
 
 export default function GetStarted() {
   const [isHovered, setIsHovered] = useState(false);
@@ -9,7 +9,7 @@ export default function GetStarted() {
         <div className="container">
          {/* <img src="./assets/Background.png" alt="Snow"  style={{ width: '100vh' }}/> 
         <div className="centered">  */}
-           <div className=""> 
+           <div className="text-center"> 
             <p className="fnt-sz1">Elevate Your Experience<br/> with Solvent</p>
             <p className='fnt-sz2'>
             harum nesciunt ipsum debitis</p>
