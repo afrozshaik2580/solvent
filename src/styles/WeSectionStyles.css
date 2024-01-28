@@ -1,0 +1,35 @@
+.bg-cl-about{
+    background-color: #160E33!important;
+    /* padding:10px 20px; */
+    background-image: url('./assets/background-plane.webp');
+    /* background-size: cover; */
+    background-size: 100% 100%;
+}
+.we-sec-fnt{
+    font-size:33px!important;
+    font-weight:500!important;
+    text-align: left;
+    padding:20px;
+}
+p{
+    margin-bottom: 0!important;
+}
+.s-fnt{
+    font-size:80px;
+    font-weight: 600;
+}
+/* .p-fnt{
+    font-size: 20px;
+    font-weight: 500;
+} */
+.s-clr{
+    background: linear-gradient(45deg, #EF443B, #160E33);
+}
+@media (max-width: 576px) {
+    .we-sec-fnt{
+        font-size:25px!important;
+        font-weight:500!important;
+        text-align: center;
+        padding:30px 20px;
+    }   
+}

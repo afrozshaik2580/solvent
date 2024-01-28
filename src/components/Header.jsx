@@ -17,8 +17,8 @@ export default function Header() {
 </div>
 <div className="col-lg-6 fnt-hd">
 <ul>
-  <li><a href="#home" className="squeeze-animation">HOME</a></li>
-  <li><a href="#news" className="squeeze-animation">ABOUT</a></li>
+  <li><a href="/" className="squeeze-animation">HOME</a></li>
+  <li><a href="/about" className="squeeze-animation">ABOUT</a></li>
   <li><a href="#contact" className="squeeze-animation">SERVICE</a></li>
   <li><a href="#about" className="squeeze-animation">FEATURES</a></li>
   <li><a href="#about" className="squeeze-animation">CONTACT US</a></li>

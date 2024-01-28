@@ -7,6 +7,8 @@ export default {
     "./src/components/AnalysisSection.jsx",
     "./src/components/ContactSection.jsx",
     "./src/components/Footer.jsx",
+"./src/components/BrandingSection.jsx",
+    "./src/components/ThingsWeValue.jsx",
   ],
   theme: {
     screens: {
@@ -20,6 +22,9 @@ export default {
       keyframes: {
         t: {
           to: { transform: "translateX(-1000px)" },
+        },
+things: {
+          to: { transform: "translateX(-1790px)" },
         },
 spin: {
           to: { transform: "rotate(360deg)" },

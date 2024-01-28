@@ -264,7 +264,8 @@ mix-blend-mode: screen;
 }
 .slick-dots li.slick-active button:before
 {
-    color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
+  font-size: 12px !important;
 }
 
 
