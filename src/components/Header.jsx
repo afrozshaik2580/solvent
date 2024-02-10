@@ -19,9 +19,9 @@ export default function Header() {
 <ul>
   <li><a href="/" className="squeeze-animation">HOME</a></li>
   <li><a href="/about" className="squeeze-animation">ABOUT</a></li>
-  <li><a href="#contact" className="squeeze-animation">SERVICE</a></li>
-  <li><a href="#about" className="squeeze-animation">FEATURES</a></li>
-  <li><a href="#about" className="squeeze-animation">CONTACT US</a></li>
+  <li><a href="/service" className="squeeze-animation">SERVICE</a></li>
+  <li><a href="/features" className="squeeze-animation">FEATURES</a></li>
+  <li><a href="/contactUs" className="squeeze-animation">CONTACT US</a></li>
 </ul>
 </div>
 <div className="col-lg-2 text-align-center">
@@ -54,11 +54,11 @@ export default function Header() {
         />
         <div className={`panel ${isOpen ? "open" : "close"}`}>
         <ul>
-  <li><a href="#home" className="squeeze-animation">HOME</a></li>
-  <li><a href="#news" className="squeeze-animation">ABOUT</a></li>
-  <li><a href="#contact" className="squeeze-animation">SERVICE</a></li>
-  <li><a href="#about" className="squeeze-animation">FEATURES</a></li>
-  <li><a href="#about" className="squeeze-animation">CONTACT US</a></li>
+  <li><a href="/" className="squeeze-animation">HOME</a></li>
+  <li><a href="/about" className="squeeze-animation">ABOUT</a></li>
+  <li><a href="/service" className="squeeze-animation">SERVICE</a></li>
+  <li><a href="/features" className="squeeze-animation">FEATURES</a></li>
+  <li><a href="/contactUs" className="squeeze-animation">CONTACT US</a></li>
   <li><select>
  <option></option>
  <option>1</option>

@@ -39,29 +39,29 @@ export default function GetStarted() {
       
         <div className="row mr-sec2txt2 mr-sec2-bt dp-rw">
           <div className="col-lg-3 col-md-6 col-sm-6 text-center col-6 dp-dk">
-            <div className="img-st2">
-              <div className="img-st" style={{ transform: `rotateY(${flipAngle}deg)` }}>
+            <div className="img-st2-ab">
+              <div className="img-st-ab" style={{ transform: `rotateY(${flipAngle}deg)` }}>
               <img src="./assets/card1.png" alt="Snow" style={{ width: '100%', height: '100%', borderRadius: '6px', transform: `rotateY(${isFlipped ? '180deg' : '0'})` }} />
               </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-6 text-center col-6 dp-dk mr-img" style={{}}>
-            <div className="img-st2">
-              <div className="img-st" style={{ transform: `rotateY(${flipAngle}deg)` }}>
+            <div className="img-st2-ab">
+              <div className="img-st-ab" style={{ transform: `rotateY(${flipAngle}deg)` }}>
               <img src="./assets/card2.png" alt="Snow" style={{ width: '100%', height: '100%', borderRadius: '6px', transform: `rotateY(${isFlipped ? '180deg' : '0'})` }} />
               </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-6 text-center col-6 dp-dk">
-            <div className="img-st2">
-              <div className="img-st" style={{ transform: `rotateY(${flipAngle}deg)` }}>
+            <div className="img-st2-ab">
+              <div className="img-st-ab" style={{ transform: `rotateY(${flipAngle}deg)` }}>
               <img src="./assets/card3.png" alt="Snow" style={{ width: '100%', height: '100%', borderRadius: '6px', transform: `rotateY(${isFlipped ? '180deg' : '0'})` }} />
               </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-6 text-center col-6 dp-dk mr-img" style={{}}>
-            <div className="img-st2">
-              <div className="img-st" style={{ transform: `rotateY(${flipAngle}deg)` }}>
+            <div className="img-st2-ab">
+              <div className="img-st-ab" style={{ transform: `rotateY(${flipAngle}deg)` }}>
               <img src="./assets/card4.png" alt="Snow" style={{ width: '100%', height: '100%', borderRadius: '6px', transform: `rotateY(${isFlipped ? '180deg' : '0'})` }} />
               </div>
             </div>

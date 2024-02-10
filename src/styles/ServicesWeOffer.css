@@ -1,0 +1,165 @@
+.mainImage{
+    position: absolute;
+    width: 100%;
+    background-color: #160E33;
+}
+/* body{
+    color: #160E33;
+} */
+.mainHeader{
+    text-align: start;
+    padding-top: 50px;
+    padding-left: 85px;
+    margin-bottom: 50px;
+    color: #ffff;
+}
+
+.firstSection{
+margin-top: 100px;
+position: relative;
+}
+.cardMainImage{
+    width: max-content;
+    height: max-content;
+}
+.AnimatedCard{
+    width: 20%;
+    height: 360px;
+    /* background-image:  url("src/assets/Rectangle58.png"); */
+    border-radius: 15px;
+    border: 2px solid #ef443b;
+    background-size: cover;
+    box-shadow: inset -5px -5px 10px #5C3472, inset 5px 5px 10px #5C3472;
+ 
+}
+.AnimatedCardImage{
+    margin-left: auto;
+    height: 150px;
+    width: 140px;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    transition: transform 0.5s ease;
+   }
+.AnimatedCardImage:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.AnimatedimageText{
+    margin: 10px;
+    padding: 15px;
+    height: 135px;
+    text-align: justify;
+    transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
+    cursor: pointer;
+    background-color:#404D6D;
+    border-radius:12px;
+    color: #ffff;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -ms-border-radius:12px;
+    -o-border-radius:12px;
+}
+
+
+
+
+
+
+.folder-icon{
+    display: block;
+    position: relative;
+    width: 20%;
+    height: 360px;
+    background-color: #473D9A;
+    border-radius: 15px;
+    border: 1px solid #ef443b;
+}
+
+.mainFancyCardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.folderCardImage{
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 50px;
+ height: 150px;
+ transition: transform 0.5s ease;
+}
+.folderCardImage:hover{
+    animation: flipImage 0.5s linear 2;
+    -webkit-animation: flipImage 0.5s linear 2;
+}
+.imageText{
+   margin-left: auto;
+   margin-right: auto;
+   padding: 20px;
+   text-align: justify;
+   color: #ffff;
+   transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
+   cursor: pointer;
+   -webkit-transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
+   -moz-transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
+   -ms-transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
+   -o-transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
+}
+.imageText:hover {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+}
+@keyframes flipImage {
+    0%, 100% {
+        transform: perspective(1000px) rotateY(0);
+    }
+    50% {
+        transform: perspective(1000px) rotateY(180deg);
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .mainFancyCardContainer{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: normal;
+        row-gap: 15px;
+    }
+    .folder-icon{
+        width: auto;
+        margin: 0px 10px 0px 10px;
+    }
+    .imageText{
+        margin-top: 10px;
+        padding: 20px;
+        font-size: small;
+    }
+    .folderCardImage {
+        width: 140px;
+        height: 140px;
+    }
+    .AnimatedCard{
+        width: auto;
+        margin: 0px 10px 0px 10px;
+    }
+    .AnimatedCardImage{
+        width: 110px;
+    }
+    .AnimatedimageText{
+        font-size: small;
+    }
+    .mainImage{
+        display: none;
+    }
+}

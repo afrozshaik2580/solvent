@@ -1,6 +1,7 @@
 .bg-cl1{
     background-color: #160E33!important;
     /* padding:10px 20px; */
+    position:relative;
     background-image: url('./assets/Background.png');
     /* background-size: cover; */
     background-size: 100% 100%;
@@ -23,7 +24,7 @@
  transform: translate(-50%, -50%); 
   } */
   .fnt-sz1{
-    margin-top:160px;
+ padding-top:160px;
     font-size:74px;
     font-weight:900; 
   }
@@ -131,7 +132,7 @@ margin:60px 0;
       height: 100%;
   }
   .fnt-sz1{
-    margin-top:100px;
+    margin-top:10px;
     font-size:34px;
     font-weight:900;
   }

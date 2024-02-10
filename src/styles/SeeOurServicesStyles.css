@@ -1,0 +1,131 @@
+.bg-services{
+    background-color:#161616;
+    padding:2rem 3rem!important;
+    text-align: start;
+    border-radius: 10px;
+    }
+    .fnt-s2{
+        font-size: 27px;
+        font-weight: 400;
+    }
+    .fnt-s1{
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom:2rem!important;
+    }
+    .fnt-s3{
+        margin-top:2rem;
+        font-size: 24px;
+        font-weight:700;
+    }
+    .bt-services{
+        margin-left:10px;
+        color:white!important;
+        font-weight:700!important;
+        font-size:20px!important;
+        padding:20px 20px!important;
+        background-color:#EF443B!important;
+        border:1px solid white!important;
+      
+        transition: all 0.2s ease-in-out;    
+      }
+      .bt-services.hovered2 {
+        font-weight:700!important;
+        font-size:24px!important;
+        transform: scale(0.9); 
+        border:1px solid white!important;
+        background-color:#2C2C2C!important;
+        color:#EF443B!important;
+      }
+    
+    /* entire container, keeps perspective */
+    .flip-container {
+        perspective: 1000px;
+    }
+    
+    /* flip the container when hovered */
+    .flip-container:hover .image-container {
+        transform: rotateY(180deg) scale(0.8); /* Adjust the scale factor as needed */
+    }
+    
+    /* container for the image */
+    .image-container {
+        width:80%;
+        opacity: unset!important;
+        height: 70%;
+        transition: 0.5s;
+        transform-style: preserve-3d;
+        position: relative;
+    }
+    
+    /* common styling for the image */
+    .image {
+        margin-top:none!important;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Maintain aspect ratio while covering the container */
+        backface-visibility: hidden; /* Hide the backface during the flip */
+        transform-style: flat; /* Prevent interpolation, may help reduce blur */
+    }
+    .mr-servces{
+        margin:10px 8rem 10px 4rem!important;
+        
+            }
+    @media (max-width: 576px) {
+        .bg-services{
+            background-color:#161616;
+            padding:3rem 2rem!important;
+            text-align: start;
+            border-radius: 10px;
+            }
+        .container{
+            width: auto !important;
+        }
+        .mr-servces{
+    margin:10px 20px!important;
+
+        }
+        .fnt-s2{
+            font-size: 22px;
+            font-weight: 400;
+        }
+        .fnt-s1{
+            font-size: 38px;
+            font-weight: 700;
+            margin-bottom:3rem!important;
+        }
+        .fnt-s3{
+            margin-top:3rem;
+            font-size: 18px;
+            font-weight:700;
+        }
+        .bt-services{
+            margin-left:10px;
+            color:white!important;
+            font-weight:700!important;
+            font-size:18px!important;
+            padding:16px 18px!important;
+            background-color:#EF443B!important;
+            border:1px solid white!important;
+          
+            transition: all 0.2s ease-in-out;    
+          }
+          .bt-services.hovered2 {
+            font-weight:700!important;
+            font-size:18px!important;
+            transform: scale(0.9); 
+            border:1px solid white!important;
+            background-color:#2C2C2C!important;
+            color:#EF443B!important;
+          }
+          .image-container {
+            width:100%;
+            opacity: unset!important;
+            height: 70%;
+            transition: 0.5s;
+            transform-style: preserve-3d;
+            position: relative;
+        }
+    
+    }
+    

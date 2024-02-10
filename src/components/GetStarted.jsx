@@ -6,11 +6,11 @@ export default function GetStarted() {
   const [isHovered2, setIsHovered2] = useState(false);
     return (
         <div className="bg-cl1 fnt-fam">
-        <div className="container">
+        <div className="">
          {/* <img src="./assets/Background.png" alt="Snow"  style={{ width: '100vh' }}/> 
         <div className="centered">  */}
            <div className="text-center"> 
-            <p className="fnt-sz1">Elevate Your Experience<br/> with Solvent</p>
+            <p className="fnt-sz1 ">Elevate Your Experience<br/> with Solvent</p>
             <p className='fnt-sz2'>
             harum nesciunt ipsum debitis</p>
             <p className="rd-clr mr-sp fnt-sz3"> EMBARK ON A JOURNEY OF INNOVATION</p>
@@ -33,7 +33,7 @@ export default function GetStarted() {
     </button>
   
             </div>
-            <p className="mr-sp">We accept</p>
+            <p className="mr-sp mb-4">We accept</p>
             <div className="dp-gt2 fnt-sz4">
  <div className="dp-gt">   
  <img src="./assets/sm-icon.png" alt="Snow"  style={{ width: '25px',height:'25px' }}/>         

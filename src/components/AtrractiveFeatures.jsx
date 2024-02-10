@@ -1,5 +1,6 @@
 import { attractiveFeatures_cardData } from './data/AttractiveFeaturesAvailableServData';
 import "../styles/AttractiveFeaturesAvailableServices.css";
+import CardMainImage from "../assets/bgcomp.png"
 
 export default function AttractiveFeatures(){
 return(
@@ -43,9 +44,9 @@ export function CardContainer({ imageUrl, cardtitle, cardSubtitle, cardBody }) {
     return(
       <>
       <div className="main-container">
-      <img src="src\assets\bgcomp.png" alt="" className="image-container" />
-      <div className='image-container-body'>
-       <h2 className='image-container-header'>By incorporating these features, you can create a website that not only enhances Solvent's brand presence but also generates 
+      <img src={CardMainImage} alt="" className="imageContainer" />
+      <div className='imageContainer-body'>
+       <h2 className='imageContainer-header'>By incorporating these features, you can create a website that not only enhances Solvent's brand presence but also generates 
         high-quality leads and facilitates potential online sales.</h2>
       </div>
       <div className='image-buttons-container'>

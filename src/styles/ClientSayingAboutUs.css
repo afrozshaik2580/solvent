@@ -1,0 +1,161 @@
+.AboutUscardHeading{
+    margin-top: -80px;
+    margin-bottom: 50px;
+    color: #EF443B;
+}
+.outerCard{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 650px;
+    background-color: #181529;
+    box-shadow: 0px 0px 43px -9px rgba(66,66,66,1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+.AboutUscardSection{
+        width: 80%;
+        margin: 0 auto;
+        height: auto;
+}
+.AboutUscardMain{
+    background: #ffff !important;
+    height: 340px !important;
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
+.AboutUscardFirst{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+.AboutUscardUserImage{
+    height: 220px;
+    width: 220px;;
+    border-radius: 50%;
+
+}
+.AboutUscardUserName{
+color: rgb(0, 0, 0);
+font-family: sans-serif;
+}
+.AboutUscardUserProfession{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+.AboutUscardSecond{
+    display: flex;
+    text-align: justify;
+    font-size: medium;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    padding: 0px 25px 0px 0px;
+
+}
+.AboutUscardpara{
+    color: #000000;
+    font-size: larger;
+}
+.Date{
+    color: #726a6a;
+    font-size: medium;
+    margin-top: 25px;
+}
+
+/* Custom styles for the Slick carousel */
+
+.AboutUscardSection .slick-prev,
+.AboutUscardSection .slick-next {
+    margin-top: 220px;
+    margin-right: 315px !important;
+    margin-left: 315px !important;
+}
+
+.AboutUscardSection .slick-prev:hover:before,
+.AboutUscardSection.slick-prev:focus:before,
+.AboutUscardSection .slick-next:hover:before,
+.AboutUscardSection .slick-next:focus:before {
+    opacity: 1 !important;
+    color: #EF443B !important;
+}
+
+.AboutUscardSection .slick-prev:before,
+.AboutUscardSection .slick-next:before {
+    font-size: 40px !important;
+    opacity: 0.15 !important;
+    color: #EF443B !important;
+}
+
+.AboutUscardSection .slick-dots {
+    bottom: 0px !important;
+    left: 40px !important;
+}
+
+.AboutUscardSection .slick-dots li button:before {
+    color: #EF443B !important;
+    font-size: 12px !important;
+}
+
+.AboutUscardSection .slick-dots li.slick-active button:before {
+    color: #EF443B !important;
+    font-size: 20px !important;
+}
+.ornamentImage1{
+    left: auto;
+}
+@media only screen and (min-width: 1240px) {
+    .AboutUscardSection .slick-dots{
+    display: flex !important;
+    transform: translateX(460px)translateY(-5px) !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    -webkit-transform: translateX(355px)translateY(70px) !important;
+    }
+}
+    
+@media only screen and (max-width: 768px) {
+    .outerCard{
+        background-color: transparent;
+        box-shadow: none;
+    }
+        .AboutUscardMain{
+            padding: 20px;
+            display: grid !important;
+            grid-template-columns: 1fr !important; 
+        }
+        .AboutUscardUserImage {
+            height: 100px;
+            width: 220px;
+        }
+        .AboutUscardFirst {
+            margin: 0 auto 0 auto;
+            width: 60%;
+        }
+        .AboutUscardSecond{
+            padding: 0px;
+        }
+        .AboutUscardpara, .AboutUscardUserName, .Date , .HeadingData{
+            font-size: small ;
+        }
+        .AboutUscardpara{
+            margin-bottom: 40px ;
+        }
+        .AboutUscardSection .slick-dots{
+            bottom: -40px !important;
+            left: 0px !important;
+        }
+          }
