@@ -9,6 +9,11 @@ export default {
     "./src/components/Footer.jsx",
 "./src/components/BrandingSection.jsx",
     "./src/components/ThingsWeValue.jsx",
+"./src/components/OurProcess.jsx",
+    "./src/components/GetInTouch.jsx",
+    "./src/components/MarketingSection.jsx",
+    "./src/components/SalesOptimization.jsx",
+    "./src/components/DigitalMarketing.jsx",
   ],
   theme: {
     screens: {
@@ -19,12 +24,21 @@ export default {
       lg: "1100px",
     },
     extend: {
+colors: {
+        background: "#160e33",
+      },
       keyframes: {
         t: {
           to: { transform: "translateX(-1000px)" },
         },
 things: {
           to: { transform: "translateX(-1790px)" },
+        },
+process: {
+          to: { transform: "translateX(-1070px)" },
+        },
+        marketing: {
+          to: { transform: "translateX(-1295px)" },
         },
 spin: {
           to: { transform: "rotate(360deg)" },
