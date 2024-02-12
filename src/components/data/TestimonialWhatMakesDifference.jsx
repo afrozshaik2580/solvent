@@ -11,8 +11,8 @@ import img7 from '../../assets/nikita.jpg';
 export const TestimonialCardData = [
     {
       id: 1,
-      title: 'Afroz shaik',
-      description: 'web developer',
+      title: 'Afroz Shaik',
+      description: 'Full Stack Web Developer',
       linkImg: img1
     },
     {
