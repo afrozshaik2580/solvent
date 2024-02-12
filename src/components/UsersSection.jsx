@@ -38,11 +38,8 @@ export default function UsersSection() {
   return (
     <div className="py-6 px-6 w-screen h-[600px] text-center overflow-hidden">
       <div className="h-1/3 flex flex-col justify-evenly pb-5">
-        <h1 className="text-5xl font-extrabold">30 Million Users Worldwide</h1>
-        <p className="text-lg">
-          Tincidunt id nibh orci nibh justo. Purus et turpis nulla elementum,
-          sed vel.
-        </p>
+        <h1 className="text-5xl font-extrabold">3 Million Users Worldwide</h1>
+        <p className="text-lg"></p>
       </div>
       <div className="w-4/5 h-2/3 mx-auto overflow-hidden">
         <div className="w-full h-full inline-block relative animate-[t_10s_linear_infinite]">

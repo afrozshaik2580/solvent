@@ -25,14 +25,14 @@ export default function Header() {
 </ul>
 </div>
 <div className="col-lg-2 text-align-center">
-<select>
+{/* <select>
  <option></option>
  <option>Log</option>
  <option>Signup</option>
  <option>3</option>
 
 
-</select>
+</select> */}
 </div>
 </div>
 </div>
@@ -59,7 +59,7 @@ export default function Header() {
   <li><a href="/service" className="squeeze-animation">SERVICE</a></li>
   <li><a href="/features" className="squeeze-animation">FEATURES</a></li>
   <li><a href="/contactUs" className="squeeze-animation">CONTACT US</a></li>
-  <li><select>
+  {/* <li><select>
  <option></option>
  <option>1</option>
  <option>2</option>
@@ -67,7 +67,7 @@ export default function Header() {
  <option></option>
  <option></option>
 
-</select></li>
+</select></li> */}
 
 </ul>
         </div>

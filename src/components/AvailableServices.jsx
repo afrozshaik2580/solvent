@@ -9,12 +9,12 @@ export default function AvailableServices(){
     <>
     <h1 className="header">Available Services</h1>
     <h3 className="subHeader">Tincidunt id nibh orci nibh justo. Purus et turpis nulla elementum, sed vel.</h3>
-    <Card/>
+    <AvailableServicesCarousel/>
     </>
   )
 };
 
-export function Card() {
+export function AvailableServicesCarousel() {
   const settings = {
     dots: true,
     infinite: false,
@@ -54,20 +54,19 @@ export function Card() {
   return (
     <div className="card-container">
       <Slider {...settings}>
-        {availableServices_cardData.map((item) => (
-          <div className="cardBody">
+        {availableServices_cardData.map((item , index) => (
+          <div className="cardBody" key={index}>
             <div className="card-top">
               <img src={ item.linkImg } alt={item.title}/>
             </div>
-            <h1 className='card-header'>{item.title}</h1>
+            <div className='CardBottom'>
+            <div className='topHeader'>
+            <h1 className='CarouselcardHeader'>{item.title}</h1>
             <p className='card-description'>{item.description}</p>
+            </div>
             <div className="card-bottom">
-              <div>
-              <h3 className='card-amount'>{item.price}</h3>
-              </div>
-              <div>
-              <button className='card-button'>Join Now</button>
-              </div>
+              <button className='card-button'>Read more</button>
+            </div>
             </div>
           </div>
         ))}

@@ -66,9 +66,9 @@ export function TestimonialCard() {
               <h4 className='cardUserProfession'>{item.description}</h4>
               </div>
             </div>
-              <div className="cardSecond">
+              {/* <div className="cardSecond">
                 <h3 className='para'>Thank you so much - I can't believe how much we packed into a short conversation! The team is so friendly, and incredibly knowledgeable. It also helps that they are clearly incredibly passionate about their profession, and being on Growth Mentor!</h3>
-              </div>
+              </div> */}
             </div>
           ))}
         </Slider>

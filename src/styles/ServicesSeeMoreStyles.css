@@ -55,8 +55,14 @@
   font-size:64px;
   font-weight: 500;
 }
+.fnt-sec1-b{
+font-size:20px;
+}
 .ln-ht{
-  line-height:70px;
+  line-height:70px!important;
+}
+.ln-ht2{
+  line-height:30px!important;
 }
 .gallery {
   display: flex!important;

@@ -10,9 +10,9 @@ import MarketingSection from "../components/MarketingSection";
 export default function ServicesPage() {
   return (
     <div className="main-bg" style={{ backgroundColor: "#160E33" }}>
-       <Header />
-   <ServicesSeeMore />
-<ServicesWeOffer />
+      <Header />
+      <ServicesSeeMore />
+      <ServicesWeOffer />
       <MarketingSection />
       <OurProcess />
       <KeepInTouch />

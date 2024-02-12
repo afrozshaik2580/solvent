@@ -8,11 +8,11 @@ export default function BrandingSection() {
       </div>
       <div className="h-2/3 md:pr-[30%]">
         <p className="sm:text-2xl lg:text-3xl font-light">
-          At Solvent, our mission is to [mission statement]. We believe in
-          harnessing the power of [key principles] to deliver unparalleled value
-          to our clients, partners, and stakeholders. By combining cutting-edge
-          technology with strategic expertise, we aim to be the catalyst for
-          your digital success.
+          At Solvent, our mission is to Digital Transmission. We believe in
+          harnessing the power of the essence of successful online presence and
+          boarding to deliver unparalleled value to our clients, partners, and
+          stakeholders. By combining cutting-edge technology with strategic
+          expertise, we aim to be the catalyst for your digital success.
         </p>
       </div>
       <AnimatedCircles />

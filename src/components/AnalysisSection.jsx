@@ -8,25 +8,25 @@ const cards = [
     img: bg2,
     title: "Competitor Analysis",
     description:
-      "Eu tellus quam id sed ultrices. Integer nunc lectus nisi, erat et ornare risus.",
+      "Stay ahead of the curve with data-driven insights. Our marketing analytics and strategy sservices ensure your campaigns are effective and impactful.",
   },
   {
     img: bg3,
     title: "Online Presence and Branding",
     description:
-      "Eu tellus quam id sed ultrices. Integer nunc lectus nisi, erat et ornare risus.",
+      "Brand identity, fosters customer loyalty, and from competitors. Engaging with audiences in real-time and leveraging data insights allows for strategic optimization and adaptation to evolving trends.",
   },
   {
     img: bg4,
     title: "Reduce your loosing",
     description:
-      "Eu tellus quam id sed ultrices. Integer nunc lectus nisi, erat et ornare risus.",
+      "Online presence and cohesive branding are essential for businesses to stand out and succeed. By maintaining consistency across channels, engaging with audiences, and leveraging data insights.",
   },
   {
     img: bg5,
     title: "Lead Generation Strategies",
     description:
-      "Eu tellus quam id sed ultrices. Integer nunc lectus nisi, erat et ornare risus.",
+      "Lead generation strategies are methods and tactics used by businesses to attract and capture the interest of potential customers (leads) with the goal of converting them into paying customers.",
   },
 ];
 
@@ -48,9 +48,9 @@ export default function AnalysisSection() {
         </div>
       </div>
       <div>
-        <button className="border-[1px] border-[#ef443b] p-4 font-semibold rounded-full hover:shadow-[1px_1px_10px_#ef443b] hover:text-[#ef443b]">
+        {/* <button className="border-[1px] border-[#ef443b] p-4 font-semibold rounded-full hover:shadow-[1px_1px_10px_#ef443b] hover:text-[#ef443b]">
           STRATEGIC GROWTH INSIGHTS
-        </button>
+        </button> */}
       </div>
     </div>
   );

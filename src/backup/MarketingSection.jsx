@@ -42,42 +42,42 @@ const dataBottom = [
 
 export default function MarketingSection() {
   return (
-<>
+    <>
       <h1 className="text-white sm:mx-9 md:mx-20 lg:mx-32">
         SERVICES WE OFFER
       </h1>
-    <div className="py-12 relative overflow-hidden">
-      {/* <div className="absolute w-[1500px] left-[-200px] h-[90%] rotate-12 [background:linear-gradient(180deg,rgba(235,67,59,1)_17%,rgba(22,14,51,1)_70%)] []"></div> */}
-      <div className="my-7 sm:mx-9 md:mx-20 lg:mx-32 overflow-hidden [-webkit-mask-image:linear-gradient(to_right,rgba(0,0,0,0)_0%,rgb(0,0,0)_12.5%,rgb(0,0,0)_87.5%,rgba(0,0,0,0)_100%)]">
-        <div className="inline-block relative animate-[marketing_15s_linear_infinite]">
-          <div>
-            <div className="flex whitespace-nowrap">
-              {dataTop.map((item, index) => (
-                <Card key={index} card={item} />
-              ))}
+      <div className="py-12 relative overflow-hidden">
+        {/* <div className="absolute w-[1500px] left-[-200px] h-[90%] rotate-12 [background:linear-gradient(180deg,rgba(235,67,59,1)_17%,rgba(22,14,51,1)_70%)] []"></div> */}
+        <div className="my-7 sm:mx-9 md:mx-20 lg:mx-32 overflow-hidden [-webkit-mask-image:linear-gradient(to_right,rgba(0,0,0,0)_0%,rgb(0,0,0)_12.5%,rgb(0,0,0)_87.5%,rgba(0,0,0,0)_100%)]">
+          <div className="inline-block relative animate-[marketing_15s_linear_infinite]">
+            <div>
+              <div className="flex whitespace-nowrap">
+                {dataTop.map((item, index) => (
+                  <Card key={index} card={item} />
+                ))}
+              </div>
+              <div className="flex whitespace-nowrap">
+                {dataBottom.map((item, index) => (
+                  <Card key={index} card={item} />
+                ))}
+              </div>
             </div>
-            <div className="flex whitespace-nowrap">
-              {dataBottom.map((item, index) => (
-                <Card key={index} card={item} />
-              ))}
-            </div>
-          </div>
-          <div className="absolute left-[1295px] top-0">
-            <div className="flex whitespace-nowrap">
-              {dataTop.map((item, index) => (
-                <Card key={index} card={item} />
-              ))}
-            </div>
-            <div className="flex whitespace-nowrap">
-              {dataBottom.map((item, index) => (
-                <Card key={index} card={item} />
-              ))}
+            <div className="absolute left-[1295px] top-0">
+              <div className="flex whitespace-nowrap">
+                {dataTop.map((item, index) => (
+                  <Card key={index} card={item} />
+                ))}
+              </div>
+              <div className="flex whitespace-nowrap">
+                {dataBottom.map((item, index) => (
+                  <Card key={index} card={item} />
+                ))}
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-</>
+    </>
   );
 }
 

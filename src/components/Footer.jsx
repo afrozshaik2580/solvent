@@ -1,3 +1,11 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faYoutube,
+  faLinkedin,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+
 export default function Footer() {
   return (
     <div className="px-7">
@@ -5,8 +13,10 @@ export default function Footer() {
         <div className="col-span-3 p-7 pt-0 space-y-6">
           <h1 className="text-[#ef443b] text-2xl font-bold">Solvent</h1>
           <p>
-            Massa blandit semper varius faucibus. Suspendisse viverra venenatis
-            placerat nam ut. Pellentesque sit id tempor turpis.
+            Welcome to TekSolvent, your strategic partner for navigating the
+            digital landscape. Discover a suite of services designed to empower
+            your business, from impactful website development to cutting-edge
+            blockchain solutions.
           </p>
         </div>
         <div className="col-span-5 grid grid-cols-5">
@@ -62,10 +72,18 @@ export default function Footer() {
           <p>Copyright @ 2024 Solvent</p>
         </div>
         <div className="w-1/3 text-end space-x-4">
-          <button>Y</button>
-          <button>L</button>
-          <button>F</button>
-          <button>B</button>
+          <a href="https://www.facebook.com">
+            <FontAwesomeIcon icon={faFacebook} style={{ color: "white" }} />
+          </a>
+          <a href="https://www.youtube.com">
+            <FontAwesomeIcon icon={faYoutube} style={{ color: "white" }} />
+          </a>
+          <a href="https://www.linkedin.com">
+            <FontAwesomeIcon icon={faLinkedin} style={{ color: "white" }} />
+          </a>
+          <a href="https://www.inst.com">
+            <FontAwesomeIcon icon={faInstagram} style={{ color: "white" }} />
+          </a>
         </div>
       </div>
     </div>

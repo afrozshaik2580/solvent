@@ -1,52 +1,68 @@
 // import { WhatMakesUsDifference } from "../Testimonial";
-import img1 from '../../assets/profileImage1.jpg';
-import img2 from '../../assets/profileImage2.jpg';
-import img3 from '../../assets/profileImage3.jpeg';
+import img1 from '../../assets/20240128_183440.jpg';
+import img2 from '../../assets/6C06A615-E29B-4A87-96D3-956BE78C7AF9.jpeg.jpg';
+import img3 from '../../assets/nikita.jpg';
+import img4 from '../../assets/IMG-20240205-WA0014.jpg';
+import img5 from '../../assets/IMG-20240205-WA0003.jpg';
+import img6 from '../../assets/IMG_20180320_141506.jpg';
+import img7 from '../../assets/nikita.jpg';
 
 
 export const TestimonialCardData = [
     {
       id: 1,
-      title: 'Courtney Henry',
-      description: 'CEO, Company',
+      title: 'Afroz shaik',
+      description: 'web developer',
       linkImg: img1
     },
     {
       id: 2,
-      title: 'Courtney Henry',
-      description: 'CEO, Company',
+      title: 'Annapurna R Pujari',
+      description: 'Digital Marketer Executive,',
       linkImg:img2
      },
     {
       id: 3,
-      title: 'Digital Marketing',
-      description: 'CEO, Company',
+      title: 'Nikita Kashyap',
+      description: 'UI UX Designer, Company',
       linkImg: img3
     },
     {
         id: 4,
-        title: 'Courtney Henry',
-        description: 'CEO, Company',
-        linkImg: img2
+        title: 'Thejesvini',
+        description: 'Front-end Developer, Company',
+        linkImg: img4
     },
     {
         id: 5,
-        title: 'Digital Marketing',
-        description: 'CEO, Company',
-        linkImg:img1
+        title: 'Yeshwanth',
+        description: 'Junior Developer, Company',
+        linkImg:img5
     },
     {
         id: 6,
-        title: 'UI UX',
-        description: 'CEO, Company',
-        linkImg:img3
+        title: 'Pavan S',
+        description: 'Full Stack Developer, Company',
+        linkImg:img6
       },
-    {
-      id: 7,
-        title: 'Courtney Henry',
-        description: 'CEO, Company',
-        linkImg:img1
-    },
+    // {
+    //   id: 7,
+    //     title: 'Ramesh Reddy Yaga',
+    //     description: 'Business Development Manager, Company',
+    //     linkImg:img7
+    // },
+    // {
+    //   id: 8,
+    //     title: 'Ramesh Reddy Yaga',
+    //     description: 'Business Development Manager, Company',
+    //     linkImg:img1
+    // },
+    // {
+    //   id: 9,
+    //     title: 'Ramesh Reddy Yaga',
+    //     description: 'Business Development Manager, Company',
+    //     linkImg:img1
+    // },
   ];
 
   export const WhatMakesUsDifferenceData =[

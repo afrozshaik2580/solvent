@@ -4,8 +4,8 @@ import "../styles/keepInTouchStyles.css";
 export default function ServicesOne() {
     return (
         <div className=" mb-3 container bg-ctus text-white fnt-fam text-center" styles={{ }}>
-            <p className="mr-first">Keep in touch and stay inspiring everyday</p>
-            <p className='mr-sec'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At senectus vitae hendrerit massa in.</p>
+            <p className="mr-sec mr-first">Keep in touch and stay inspiring everyday</p>
+            {/* <p className='mr-sec'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At senectus vitae hendrerit massa in.</p> */}
             <div className=" h-8 flex justify-content-center mb-4" styles={{ margin:'auto' }}>
               <input
                 type="text"

@@ -5,8 +5,9 @@
     border-radius: 10px;
     }
     .fnt-s2{
-        font-size: 27px;
+        font-size: 24px;
         font-weight: 400;
+        margin:3rem 0!important;
     }
     .fnt-s1{
         font-size: 40px;
@@ -60,12 +61,12 @@
     
     /* common styling for the image */
     .image {
-        margin-top:none!important;
+        margin-top: none !important;
         width: 100%;
         height: 100%;
-        object-fit: cover; /* Maintain aspect ratio while covering the container */
-        backface-visibility: hidden; /* Hide the backface during the flip */
-        transform-style: flat; /* Prevent interpolation, may help reduce blur */
+        object-fit: cover;
+        /* backface-visibility: hidden; */  /* Remove or adjust this line */
+        transform-style: flat;
     }
     .mr-servces{
         margin:10px 8rem 10px 4rem!important;

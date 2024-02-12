@@ -12,7 +12,7 @@ export default function FeaturesPage() {
       <SalesOptimization />
       <DigitalMarketing />
       <MainFeatures/>
-      <AboutUsCard />
+      {/* <AboutUsCard /> */}
     </div>
   );
 }

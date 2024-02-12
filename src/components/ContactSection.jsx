@@ -1,3 +1,10 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPhone,
+  faEnvelope,
+  faLocationDot,
+} from "@fortawesome/free-solid-svg-icons";
+
 import { useState } from "react";
 const arr = ["First Name", "Last Name", "Email", "Phone Number"];
 export default function ContactSection() {
@@ -18,9 +25,16 @@ export default function ContactSection() {
           </div>
           <div className="h-[70%]">
             <div className="m-2">
-              <p>+1012 3456 789</p>
-              <p>demo@gmail.com</p>
               <p>
+                <FontAwesomeIcon icon={faPhone} />
+                +1012 3456 789
+              </p>
+              <p>
+                <FontAwesomeIcon icon={faEnvelope} />
+                demo@gmail.com
+              </p>
+              <p>
+                <FontAwesomeIcon icon={faLocationDot} />
                 132 Dartmouth Street Boston, Massachusetts 02156 United States
               </p>
             </div>

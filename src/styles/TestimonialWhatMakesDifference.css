@@ -17,14 +17,15 @@
     gap: 20px;
 }
 .cardUserImage{
-    height: 110px;
-    width: 120px;
+    height: 230px;
+    width: 240px;
     border-radius: 50%;
 
 }
 .cardUserName{
 color: rgb(153 153 153);
 font-family: sans-serif;
+font-size: 50px;
 }
 .cardUserProfession{
     color: rgb(153 153 153);
