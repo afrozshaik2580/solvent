@@ -20,8 +20,8 @@ export function TestimonialCard() {
       dots: true,
       infinite: false,
       speed: 1200,
-      slidesToShow: 1,
-      slidesToScroll: 1,
+      slidesToShow: 3,
+      slidesToScroll: 3,
       initialSlide: 0,
       responsive: [
         {
@@ -58,12 +58,12 @@ export function TestimonialCard() {
           {TestimonialCardData.map((item) => (
             <div className="cardMain">
             <div className="cardFirst">
-                <div>
+                <div className='cardImages'>
                 <img className='cardUserImage' src={item.linkImg} alt={item.title}/>
               </div>
-              <div>
+              <div className='CardInfo'>
               <h2 className='cardUserName'>{item.title}</h2>
-              <h4 className='cardUserProfession'>{item.description}</h4>
+              <h5 className='cardUserProfession'>{item.description}</h5>
               </div>
             </div>
               {/* <div className="cardSecond">

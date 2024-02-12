@@ -8,14 +8,12 @@ export default function SalesOptimization() {
         <div className="w-20">
           <img src={tower} alt="" />
         </div>
-        <h1 className="font-normal">Sales Optimization & Data Analysis</h1>
-        <p className="text-gray-200">
-          lorem ipsum dolor amit sit lorem ipsum dolor amit sit lorem ipsum
-          dolor amit sit lorem ipsum dolor amit sit lorem ipsum dolor amit sit
-        </p>
-        <button className="p-3 bg-[#ef443b] rounded-full">
+        <h1 className="font-normal fnt-digital3">Explore Our <br/>Essential Features</h1>
+        <p className="fnt-digital4">Delve into our core functionalities designed
+to elevate your experience.</p>
+        {/* <button className="p-3 bg-[#ef443b] rounded-full">
           VIEW DETAILS →
-        </button>
+        </button> */}
       </div>
       <div className=" sm:hidden md:inline-block md:w-1/2 flex justify-center items-center">
         <img src={ladder} alt="" />

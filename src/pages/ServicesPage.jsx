@@ -6,6 +6,7 @@ import KeepInTouch from "../components/KeepInTouch";
 import ServicesSeeMore from "../components/ServicesSeeMore";
 import Header from "../components/Header";
 import MarketingSection from "../components/MarketingSection";
+import Footer from "../components/Footer";
 
 export default function ServicesPage() {
   return (
@@ -16,6 +17,7 @@ export default function ServicesPage() {
       <MarketingSection />
       <OurProcess />
       <KeepInTouch />
+<Footer/>
     </div>
   );
 }

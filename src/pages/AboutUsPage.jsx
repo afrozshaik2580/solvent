@@ -4,6 +4,7 @@
  import Testimonial from "../components/Testimonial";
  import BrandingSection from "../components/BrandingSection";
 import ThingsWeValue from "../components/ThingsWeValue";
+import Footer from "../components/Footer";
 
 export default function AboutUsPage() {
   return (
@@ -14,6 +15,7 @@ export default function AboutUsPage() {
       <BrandingSection />
       <ThingsWeValue />
       <Testimonial/>
+<Footer />
     </div>
   );
 }

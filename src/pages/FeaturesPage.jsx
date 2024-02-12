@@ -4,7 +4,7 @@ import DigitalMarketing from "../components/DigitalMarketing";
 import AboutUsCard from "../components/ClientSayingAboutUs";
 import MainFeatures from "../components/MainFeatures";
 import Header from "../components/Header";
-
+import Footer from "../components/Footer";
 export default function FeaturesPage() {
   return (
     <div  style={{backgroundColor: "#160E33"}}>
@@ -13,6 +13,7 @@ export default function FeaturesPage() {
       <DigitalMarketing />
       <MainFeatures/>
       {/* <AboutUsCard /> */}
+<Footer/>
     </div>
   );
 }

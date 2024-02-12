@@ -1,29 +1,29 @@
 /* eslint-disable react/prop-types */
-import bg2 from "../assets/bg2.png";
-import bg3 from "../assets/bg3.png";
-import bg4 from "../assets/bg4.png";
-import bg5 from "../assets/bg5.png";
+import Competitor from "../assets/Competitor.png";
+import Branding from "../assets/Branding.png";
+import Losing from "../assets/Losing.png";
+import LeadGeneration from "../assets/LeadGeneration.png";
 const cards = [
   {
-    img: bg2,
+    img: Competitor,
     title: "Competitor Analysis",
     description:
       "Stay ahead of the curve with data-driven insights. Our marketing analytics and strategy sservices ensure your campaigns are effective and impactful.",
   },
   {
-    img: bg3,
+    img: Branding,
     title: "Online Presence and Branding",
     description:
       "Brand identity, fosters customer loyalty, and from competitors. Engaging with audiences in real-time and leveraging data insights allows for strategic optimization and adaptation to evolving trends.",
   },
   {
-    img: bg4,
+    img: Losing,
     title: "Reduce your loosing",
     description:
       "Online presence and cohesive branding are essential for businesses to stand out and succeed. By maintaining consistency across channels, engaging with audiences, and leveraging data insights.",
   },
   {
-    img: bg5,
+    img: LeadGeneration,
     title: "Lead Generation Strategies",
     description:
       "Lead generation strategies are methods and tactics used by businesses to attract and capture the interest of potential customers (leads) with the goal of converting them into paying customers.",
@@ -35,10 +35,7 @@ export default function AnalysisSection() {
     <div className="px-6 w-screen min-h-[650px] text-center overflow-hidden">
       <div className="h-1/3 flex flex-col justify-evenly">
         <h1 className="text-5xl font-extrabold">Market Analysis</h1>
-        <p className="text-lg my-7">
-          Tincidunt id nibh orci nibh justo. Purus et turpis nulla elementum,
-          sed vel.
-        </p>
+        <p className="text-lg my-7"></p>
       </div>
       <div className="sm:w-[100%] md:max-lg:w-[80%] mx-auto">
         <div className="flex sm:max-lg:flex-col lg:flex-wrap items-center justify-center">
@@ -69,7 +66,7 @@ function Card({ card }) {
       <div className="2/3 space-y-3 w-full h-full">
         <h1 className="font-semibold  text-2xl">{card.title}</h1>
         <p className="text-gray-400">{card.description}</p>
-        <button className="text-[#ef443b]">Learn more</button>
+        {/* <button className="text-[#ef443b]">Learn more</button> */}
       </div>
     </div>
   );

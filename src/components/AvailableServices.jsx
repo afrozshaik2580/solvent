@@ -1,18 +1,17 @@
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "../styles/AttractiveFeaturesAvailableServices.css";
-import { availableServices_cardData } from './data/AttractiveFeaturesAvailableServData';
+import { availableServices_cardData } from "./data/AttractiveFeaturesAvailableServData";
 
-export default function AvailableServices(){
-  return(
+export default function AvailableServices() {
+  return (
     <>
-    <h1 className="header">Available Services</h1>
-    <h3 className="subHeader">Tincidunt id nibh orci nibh justo. Purus et turpis nulla elementum, sed vel.</h3>
-    <AvailableServicesCarousel/>
+      <h1 className="header">Available Services</h1>
+      <AvailableServicesCarousel />
     </>
-  )
-};
+  );
+}
 
 export function AvailableServicesCarousel() {
   const settings = {
@@ -50,23 +49,22 @@ export function AvailableServicesCarousel() {
     ],
   };
 
-
   return (
     <div className="card-container">
       <Slider {...settings}>
-        {availableServices_cardData.map((item , index) => (
+        {availableServices_cardData.map((item, index) => (
           <div className="cardBody" key={index}>
             <div className="card-top">
-              <img src={ item.linkImg } alt={item.title}/>
+              <img src={item.linkImg} alt={item.title} />
             </div>
-            <div className='CardBottom'>
-            <div className='topHeader'>
-            <h1 className='CarouselcardHeader'>{item.title}</h1>
-            <p className='card-description'>{item.description}</p>
-            </div>
-            <div className="card-bottom">
-              <button className='card-button'>Read more</button>
-            </div>
+            <div className="CardBottom">
+              <div className="topHeader">
+                <h1 className="CarouselcardHeader">{item.title}</h1>
+                <p className="card-description">{item.description}</p>
+              </div>
+              <div className="card-bottom">
+                <button className="card-button">Read more</button>
+              </div>
             </div>
           </div>
         ))}
@@ -74,4 +72,3 @@ export function AvailableServicesCarousel() {
     </div>
   );
 }
-

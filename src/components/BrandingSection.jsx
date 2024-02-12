@@ -3,7 +3,7 @@ export default function BrandingSection() {
     <div className="sm:h-[650px] md:h-[550px] sm:py-20 px-20 lg:px-28 py-28 relative">
       <div className="h-1/3">
         <h1 className="sm:text-5xl md:text-6xl lg:text-7xl m-0">
-          The art of Branding
+          The Art of Branding
         </h1>
       </div>
       <div className="h-2/3 md:pr-[30%]">

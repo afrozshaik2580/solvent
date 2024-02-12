@@ -3,6 +3,7 @@ import GetInTouch from "../components/GetInTouch";
 import ContactUs from "../components/ContactUs";
 import SeeOurServices from "../components/SeeOurServices";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function ContactPage() {
   return (
@@ -11,6 +12,7 @@ export default function ContactPage() {
       <GetInTouch />
       <SeeOurServices/>
       <ContactUs/>
+<Footer/>
     </div>
   );
 }

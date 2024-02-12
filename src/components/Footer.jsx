@@ -1,16 +1,17 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
-  faYoutube,
+  // faYoutube,
   faLinkedin,
   faInstagram,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
-    <div className="px-7">
+    <div className="px-7 py-12">
       <div className="grid md:grid-cols-12 md:px-14 sm:px-10">
-        <div className="col-span-3 p-7 pt-0 space-y-6">
+        <div className="col-span-5 p-7 pt-0 space-y-6 text-white">
           <h1 className="text-[#ef443b] text-2xl font-bold">Solvent</h1>
           <p>
             Welcome to TekSolvent, your strategic partner for navigating the
@@ -19,26 +20,24 @@ export default function Footer() {
             blockchain solutions.
           </p>
         </div>
-        <div className="col-span-5 grid grid-cols-5">
-          <div className="col-span-2 p-7 pt-0 space-y-6">
+        <div className="col-span-3 p-7 pt-0 space-y-6  text-white">
             <h1 className="text-[#ef443b] text-2xl font-bold">Links</h1>
             <ul className="space-y-2">
-              <li>How it works</li>
-              <li>Marketing</li>
-              <li>Features</li>
-              <li>Testimonial</li>
-              <li>Blogs</li>
+              <li className="w-full">How it works</li>
+              <li className="w-full">Marketing</li>
+              <li className="w-full">Features</li>
+              <li className="w-full">Testimonial</li>
+              <li className="w-full">Blogs</li>
             </ul>
-          </div>
-          <div className="col-span-3 p-7 pt-0 space-y-6">
+          {/* <div className="col-span-3 p-7 pt-0 space-y-6 md:ml-5">
             <h1 className="text-[#ef443b] text-2xl font-bold">Legal</h1>
             <ul className="space-y-2">
               <li>Terms of use</li>
               <li>Terma of conditions</li>
-              <li>Privacy policy</li>
+              <li className="w-full">Privacy policy</li>
               <li>Cookie policy</li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <div className="col-span-4 p-7 pt-0 space-y-6">
           <h1 className="text-[#ef443b] text-2xl font-bold">Newsletter</h1>
@@ -63,10 +62,12 @@ export default function Footer() {
         </div>
       </div>
       <hr className="border-[1px] border-gray-600  w-[80%] mx-auto mt-4" />
-      <div className="md:px-24 sm:px-11 py-1 flex justify-between text-sm ">
+      <div className="md:px-24 sm:px-11 pb-3 flex justify-between text-sm text-white">
         <div className="w-1/3 text-start space-x-4">
           <button>Privacy & Terms</button>
           <button>Contact Us</button>
+          <p>+91 (824) 740-8127</p>
+          <p>Contact@teksolvent.com</p>
         </div>
         <div className="w-1/3 text-center">
           <p>Copyright @ 2024 Solvent</p>
@@ -75,14 +76,17 @@ export default function Footer() {
           <a href="https://www.facebook.com">
             <FontAwesomeIcon icon={faFacebook} style={{ color: "white" }} />
           </a>
-          <a href="https://www.youtube.com">
+          {/* <a href="https://www.youtube.com">
             <FontAwesomeIcon icon={faYoutube} style={{ color: "white" }} />
-          </a>
+          </a> */}
           <a href="https://www.linkedin.com">
             <FontAwesomeIcon icon={faLinkedin} style={{ color: "white" }} />
           </a>
           <a href="https://www.inst.com">
             <FontAwesomeIcon icon={faInstagram} style={{ color: "white" }} />
+          </a>
+          <a href="https://twitter.com/SolventPvt">
+            <FontAwesomeIcon icon={faTwitter} style={{ color: "white" }} />
           </a>
         </div>
       </div>

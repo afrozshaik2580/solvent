@@ -1,4 +1,5 @@
 .mainImage{
+height:90%;
     position: absolute;
     width: 100%;
     background-color: #160E33;
@@ -101,7 +102,7 @@ position: relative;
    margin-left: auto;
    margin-right: auto;
    padding: 20px;
-   text-align: justify;
+   text-align: left;
    color: #ffff;
    transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
    cursor: pointer;

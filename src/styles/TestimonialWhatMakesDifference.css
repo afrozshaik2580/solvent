@@ -1,36 +1,42 @@
 .cardMain{
     background: #050e30;
     width: 100%;
-    display: inline-block;
-    padding: 75px 100px;
+    padding: 15px 15px;
     height: auto;
     border: 2px solid #ef443b;
     border-radius: 10px;
     -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 .cardFirst{
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+.cardImages{
     display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: center;
 }
 .cardUserImage{
     height: 230px;
     width: 240px;
-    border-radius: 50%;
-
+    border-radius: 15px;
 }
 .cardUserName{
-color: rgb(153 153 153);
+color:#ffff;
 font-family: sans-serif;
-font-size: 50px;
 }
 .cardUserProfession{
     color: rgb(153 153 153);
     font-family: sans-serif;
 }
+.CardInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .cardSecond{
     margin-top: 40px;
 text-align: justify;
@@ -45,11 +51,26 @@ text-align: justify;
     width: 80%;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .AboutTeamHeader{
+    /* color: #ef443b;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif; */
+    text-align: left;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 40px;
+
   }
 .Testimonial-card .slick-prev,
 .Testimonial-card .slick-next {
-    margin-right: 70px !important;
-    margin-left: 47px !important;
+    margin-right: -25px !important;
+    margin-left: -50px !important;
     z-index: 2 !important;
 }
 
@@ -105,17 +126,9 @@ text-align: justify;
 .Testimonial-card .slick-dots{
     display: flex !important;
     background-color: #3232324a !important;
-    transform:translateX(460px)translateY(-5px) !important;
+    transform: translateX(495px)translateY(50px) !important;
     width: fit-content !important;
     border-radius: 20px !important;
-    -webkit-transform:translateX(460px)translateY(-5px) !important;
-    -moz-transform:translateX(460px)translateY(-5px) !important;
-    -ms-transform:translateX(460px)translateY(-5px) !important;
-    -o-transform:translateX(460px)translateY(-5px) !important;
-    -webkit-border-radius: 20px !important;
-    -moz-border-radius: 20px !important;
-    -ms-border-radius: 20px !important;
-    -o-border-radius: 20px !important;
 }
 }
 
@@ -129,17 +142,13 @@ text-align: justify;
 .para{
     margin-bottom: 40px ;
 }
-.Testimonial-card .slick-dots{
-display: flex !important;
- width:fit-content !important;
- border-radius: 20px !important;
- background-color: none !important;
- -webkit-border-radius: 20px !important;
- -moz-border-radius: 20px !important;
- -ms-border-radius: 20px !important;
- -o-border-radius: 20px !important;
-}
+
 .Whatmakes-contents{
     padding: 0px 20px 0px 20px;
+}
+.Testimonial-card .slick-dots {
+    bottom: -50px !important;
+    width: fit-content;
+  
 }
   }
