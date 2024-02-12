@@ -35,7 +35,7 @@ things: {
           to: { transform: "translateX(-1790px)" },
         },
 process: {
-          to: { transform: "translateX(-1070px)" },
+          to: { transform: "translateX(-1150px)" },
         },
         marketing: {
           to: { transform: "translateX(-1295px)" },
