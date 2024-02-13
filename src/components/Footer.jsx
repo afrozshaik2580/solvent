@@ -9,8 +9,8 @@ import {
 
 export default function Footer() {
   return (
-    <div className="px-7 py-12">
-      <div className="grid md:grid-cols-12 md:px-14 sm:px-10">
+    <div className="md:px-7 md:py-6 sm:py-5">
+      <div className="grid md:grid-cols-12 md:px-10 sm:px-3">
         <div className="col-span-5 p-7 pt-0 space-y-6 text-white">
           <h1 className="text-[#ef443b] text-2xl font-bold">Solvent</h1>
           <p>
@@ -20,15 +20,15 @@ export default function Footer() {
             blockchain solutions.
           </p>
         </div>
-        <div className="col-span-3 p-7 pt-0 space-y-6  text-white">
-            <h1 className="text-[#ef443b] text-2xl font-bold">Links</h1>
-            <ul className="space-y-2">
-              <li className="w-full">How it works</li>
-              <li className="w-full">Marketing</li>
-              <li className="w-full">Features</li>
-              <li className="w-full">Testimonial</li>
-              <li className="w-full">Blogs</li>
-            </ul>
+        <div className="col-span-3 p-7 pt-0 space-y-6 text-white">
+          <h1 className="text-[#ef443b] text-2xl font-bold">Links</h1>
+          <ul className="space-y-2">
+            <li className="w-full">How it works</li>
+            <li className="w-full">Marketing</li>
+            <li className="w-full">Features</li>
+            <li className="w-full">Testimonial</li>
+            <li className="w-full">Blogs</li>
+          </ul>
           {/* <div className="col-span-3 p-7 pt-0 space-y-6 md:ml-5">
             <h1 className="text-[#ef443b] text-2xl font-bold">Legal</h1>
             <ul className="space-y-2">
@@ -39,7 +39,7 @@ export default function Footer() {
             </ul>
           </div> */}
         </div>
-        <div className="col-span-4 p-7 pt-0 space-y-6">
+        <div className="col-span-4 p-7 pt-0 space-y-6 w-full min-w-[280px]">
           <h1 className="text-[#ef443b] text-2xl font-bold">Newsletter</h1>
           <p className="text-gray-300 text-xl">
             Over 25000 people have join us
@@ -62,12 +62,10 @@ export default function Footer() {
         </div>
       </div>
       <hr className="border-[1px] border-gray-600  w-[80%] mx-auto mt-4" />
-      <div className="md:px-24 sm:px-11 pb-3 flex justify-between text-sm text-white">
+      <div className="md:px-16 sm:px-5 md:pb-3 flex justify-between text-sm text-white">
         <div className="w-1/3 text-start space-x-4">
           <button>Privacy & Terms</button>
           <button>Contact Us</button>
-          <p>+91 (824) 740-8127</p>
-          <p>Contact@teksolvent.com</p>
         </div>
         <div className="w-1/3 text-center">
           <p>Copyright @ 2024 Solvent</p>
@@ -89,6 +87,10 @@ export default function Footer() {
             <FontAwesomeIcon icon={faTwitter} style={{ color: "white" }} />
           </a>
         </div>
+      </div>
+      <div className="md:px-16 sm:px-5 md:pb-3 sm:max-md:mt-3 flex space-x-3 sm:justify-center md:justify-start">
+        <p>+91 (824) 740-8127</p>
+        <p>Contact@teksolvent.com</p>
       </div>
     </div>
   );
