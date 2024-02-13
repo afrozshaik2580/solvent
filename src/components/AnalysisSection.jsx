@@ -32,7 +32,7 @@ const cards = [
 
 export default function AnalysisSection() {
   return (
-    <div className="px-6 w-screen min-h-[650px] text-center overflow-hidden">
+    <div className="sm:px-1 px-6 w-screen min-h-[650px] text-center overflow-hidden">
       <div className="h-1/3 flex flex-col justify-evenly">
         <h1 className="text-5xl font-extrabold">Market Analysis</h1>
         <p className="text-lg my-7"></p>
@@ -56,14 +56,14 @@ export default function AnalysisSection() {
 function Card({ card }) {
   return (
     <div className="flex p-4 m-4 sm:max-lg:w-full lg:w-[40%] text-start space-x-4 ">
-      <div className="shrink-0 w-[150px] h-[150px]">
+      <div className="shrink-0 sm:max-md:my-auto sm:w-[100px] md:w-[150px] sm:h-[100px] md:h-[150px]">
         <img
           className="w-full h-full hover:brightness-110 transition-all ease-in-out duration-100 hover:scale-x-[.85]"
           src={card.img}
           alt=""
         />
       </div>
-      <div className="2/3 space-y-3 w-full h-full">
+      <div className="space-y-3 w-full h-full">
         <h1 className="font-semibold  text-2xl">{card.title}</h1>
         <p className="text-gray-400">{card.description}</p>
         {/* <button className="text-[#ef443b]">Learn more</button> */}
