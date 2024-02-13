@@ -7,9 +7,9 @@ export default {
     "./src/components/AnalysisSection.jsx",
     "./src/components/ContactSection.jsx",
     "./src/components/Footer.jsx",
-"./src/components/BrandingSection.jsx",
+    "./src/components/BrandingSection.jsx",
     "./src/components/ThingsWeValue.jsx",
-"./src/components/OurProcess.jsx",
+    "./src/components/OurProcess.jsx",
     "./src/components/GetInTouch.jsx",
     "./src/components/MarketingSection.jsx",
     "./src/components/SalesOptimization.jsx",
@@ -24,23 +24,23 @@ export default {
       lg: "1100px",
     },
     extend: {
-colors: {
+      colors: {
         background: "#160e33",
       },
       keyframes: {
         t: {
-          to: { transform: "translateX(-1000px)" },
+          to: { transform: "translateX(-1050px)" },
         },
-things: {
+        things: {
           to: { transform: "translateX(-1790px)" },
         },
-process: {
+        process: {
           to: { transform: "translateX(-1150px)" },
         },
         marketing: {
           to: { transform: "translateX(-1295px)" },
         },
-spin: {
+        spin: {
           to: { transform: "rotate(360deg)" },
         },
       },
