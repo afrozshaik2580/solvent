@@ -19,9 +19,9 @@ export default function LandingPage() {
       <UsersSection />
       <hr className="w-3/5 mx-auto my-16 border border-[#ef443b]" />
       <AnalysisSection />
-      {/* <hr className="w-3/5 mx-auto my-16 border border-[#ef443b]" />
-      <ContactSection /> */}
-      {/* <hr className="w-3/5 mx-auto my-16 border border-[#ef443b]" /> */}
+      <hr className="w-3/5 mx-auto my-16 border border-[#ef443b]" />
+      <ContactSection />
+      <hr className="w-3/5 mx-auto my-16 border border-[#ef443b]" />
       <Footer />
     </div>
   );
