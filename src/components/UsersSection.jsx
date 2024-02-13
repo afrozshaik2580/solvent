@@ -36,12 +36,12 @@ export default function UsersSection() {
   //   ></div>
   // </div>;
   return (
-    <div className="py-6 px-6 w-screen h-[600px] text-center overflow-hidden">
-      <div className="h-1/3 flex flex-col justify-evenly pb-5">
+    <div className="py-6 md:px-6 sm:px-1 w-screen h-[600px] text-center overflow-hidden">
+      <div className="h-1/3 flex flex-col justify-evenly">
         <h1 className="text-5xl font-extrabold">3 Million Users Worldwide</h1>
         <p className="text-lg"></p>
       </div>
-      <div className="w-4/5 h-2/3 mx-auto overflow-hidden">
+      <div className="sm:w-[95%] md:w-4/5 h-2/3 mx-auto overflow-hidden">
         <div className="w-full h-full inline-block relative animate-[t_10s_linear_infinite]">
           <div content className="flex w-full h-full whitespace-nowrap">
             {users.map((user, index) => (
