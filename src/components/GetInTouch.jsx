@@ -37,7 +37,7 @@ export default function GetInTouch() {
         </div>
         <div>
           <p className="text-2xl font-light">
-            Modern custom designs tailored to your every want & need,so you can
+            Modern custom designs tailored to your every want & need, so you can
             focus on what matters .
           </p>
         </div>

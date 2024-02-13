@@ -8,9 +8,14 @@ export default function SalesOptimization() {
         <div className="w-20">
           <img src={tower} alt="" />
         </div>
-        <h1 className="font-normal fnt-digital3">Explore Our <br/>Essential Features</h1>
-        <p className="fnt-digital4">Delve into our core functionalities designed
-to elevate your experience.</p>
+        <h1 className="font-normal fnt-digital3">
+          Explore Our <br />
+          Essential Features
+        </h1>
+        <p className="fnt-digital4">
+          Delve into our core functionalities designed to elevate your
+          experience.
+        </p>
         {/* <button className="p-3 bg-[#ef443b] rounded-full">
           VIEW DETAILS →
         </button> */}

@@ -83,7 +83,7 @@ export function TestimonialCard() {
         {WhatMakesUsDifferenceData.map((item) => (
         <>
         <h1 className='subHeaders' style={{color : item.color}}>{item.subHeader}</h1>
-        <h4 className='contents'>{item.contents}</h4>
+        <p className='contents'>{item.contents}</p>
         </>
         ))}
 

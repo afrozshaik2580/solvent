@@ -47,20 +47,18 @@ export default function GetStarted() {
         <div className="row mr-sec2txt2 mr-sec2-bt dp-rw">
           <div className="col-lg-7 col-md-12 col-sm-12 text-center col-12 dp-dk">
             <div className="img-st2">
-              <div
-                className="img-st"
-                style={{ transform: `rotateY(${flipAngle}deg)` }}
-              >
-                <img
+              {/* <div className="img-st" style={{ transform: `rotateY(${flipAngle}deg)` }}> */}
+              <div className="img-st">
+                {/* <img
                   src="./assets/online-sales.webp"
                   alt="Snow"
                   style={{
                     width: "100%",
                     height: "100%",
                     borderRadius: "6px",
-                    transform: `rotateY(${isFlipped ? "180deg" : "0"})`,
-                  }}
-                />
+                  }} /> */}
+                  <video id='video' controls="controls" preload='none' width="600" height="800" poster="./assets/Thumbnail.png">
+    <source id='mp4' src="/src/media/final.mp4" type='video/mp4' /></video>
               </div>
             </div>
           </div>
@@ -76,7 +74,7 @@ export default function GetStarted() {
               <AnimatedItem number="02" text="Customer Research" />
               <AnimatedItem number="03" text="Market Sizing and Forecasting" />
               <AnimatedItem number="04" text="Competitive Analysis" />
-              <AnimatedItem number="05" text="Business Plan and pitch deck" />
+              <AnimatedItem number="05" text="Business Plan and Pitch deck" />
               <AnimatedItem number="06" text="Go to Market Strategy" />
             </div>
             {/* <p className="mr-tb "><span className="nmb-st2"><span className="nmb-st">01</span><span>Market Trends Analysis</span></span></p>

@@ -11,7 +11,7 @@ const array = [
   { img: frame5, title: "Integrity" },
   { img: frame4, title: "Collaboration" },
   { img: frame3, title: "Customer Value" },
-  { img: frame2, title: "Care and share" },
+  { img: frame2, title: "Care and Share" },
 ];
 
 export default function ThingsWeValue() {
@@ -20,7 +20,7 @@ export default function ThingsWeValue() {
       {/* <div className="w-[400px] h-[200px] absolute z-50 bg-transparent [box-shadow:inset_-50px_0px_100px_-10px_rgba(0,0,0,0.74)]"></div> */}
       <div>
         <h1 className="sm:text-5xl md:text-6xl text-center lg:text-7xl m-0">
-          6 things we value
+          6 Things We Value
         </h1>
       </div>
       <div className="sm:mx-5 md:mx-10 lg:mx-24 my-16 overflow-hidden [-webkit-mask-image:linear-gradient(to_right,rgba(0,0,0,0)_0%,rgb(0,0,0)_12.5%,rgb(0,0,0)_87.5%,rgba(0,0,0,0)_100%)]">

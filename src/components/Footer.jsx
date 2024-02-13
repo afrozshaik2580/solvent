@@ -21,14 +21,14 @@ export default function Footer() {
           </p>
         </div>
         <div className="col-span-3 p-7 pt-0 space-y-6 text-white">
-          <h1 className="text-[#ef443b] text-2xl font-bold">Links</h1>
-          <ul className="space-y-2">
-            <li className="w-full">How it works</li>
-            <li className="w-full">Marketing</li>
-            <li className="w-full">Features</li>
-            <li className="w-full">Testimonial</li>
-            <li className="w-full">Blogs</li>
-          </ul>
+            <h1 className="text-[#ef443b] text-2xl font-bold">Links</h1>
+            <ul className="space-y-2">
+              <li className="w-full">How it works</li>
+              <li className="w-full">Marketing</li>
+              <li className="w-full">Features</li>
+              <li className="w-full">Testimonial</li>
+              <li className="w-full">Blogs</li>
+            </ul>
           {/* <div className="col-span-3 p-7 pt-0 space-y-6 md:ml-5">
             <h1 className="text-[#ef443b] text-2xl font-bold">Legal</h1>
             <ul className="space-y-2">
@@ -66,7 +66,7 @@ export default function Footer() {
         <div className="w-1/3 text-start space-x-4">
           <button>Privacy & Terms</button>
           <button>Contact Us</button>
-        </div>
+                  </div>
         <div className="w-1/3 text-center">
           <p>Copyright @ 2024 Solvent</p>
         </div>
@@ -80,7 +80,7 @@ export default function Footer() {
           <a href="https://www.linkedin.com">
             <FontAwesomeIcon icon={faLinkedin} style={{ color: "white" }} />
           </a>
-          <a href="https://www.inst.com">
+          <a href="https://www.instagram.com/digi_teksolvent/">
             <FontAwesomeIcon icon={faInstagram} style={{ color: "white" }} />
           </a>
           <a href="https://twitter.com/SolventPvt">
@@ -88,7 +88,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div className="md:px-16 sm:px-5 md:pb-3 sm:max-md:mt-3 flex space-x-3 sm:justify-center md:justify-start">
+<div className="md:px-16 sm:px-5 md:pb-3 sm:max-md:mt-3 flex space-x-3 sm:justify-center md:justify-start">
         <p>+91 (824) 740-8127</p>
         <p>Contact@teksolvent.com</p>
       </div>

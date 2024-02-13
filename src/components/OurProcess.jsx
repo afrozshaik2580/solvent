@@ -6,7 +6,7 @@ import DL from "../assets/DL.png";
 import SM from "../assets/SM.png";
 
 const dataTop = [
-  { title: "Reseach & Need Analysis", img: RNA },
+  { title: "Research & Need Analysis", img: RNA },
   { title: "Design & Prototyping", img: DP },
   { title: "Development & Implementation", img: DI },
 ];

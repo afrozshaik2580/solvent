@@ -1,154 +1,153 @@
-.cardMain{
-    background: #050e30;
-    width: 100%;
-    padding: 15px 15px;
-    height: auto;
-    border: 2px solid #ef443b;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
+.cardMain {
+  background: #050e30;
+  width: 100%;
+  padding: 15px 15px;
+  height: auto;
+  border: 2px solid #ef443b;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
-.cardFirst{
-    display: grid;
-    grid-template-rows: 1fr;
-    gap: 20px;
+.cardFirst {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 20px;
 }
-.cardImages{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.cardImages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.cardUserImage{
-    height: 230px;
-    width: 240px;
-    border-radius: 15px;
+.cardUserImage {
+  height: 230px;
+  width: 240px;
+  border-radius: 15px;
 }
-.cardUserName{
-color:#ffff;
-font-family: sans-serif;
+.cardUserName {
+  color: #ffff;
+  font-family: sans-serif;
 }
-.cardUserProfession{
-    color: rgb(153 153 153);
-    font-family: sans-serif;
+.cardUserProfession {
+  color: rgb(153 153 153);
+  font-family: sans-serif;
 }
-.CardInfo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.CardInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.cardSecond{
-    margin-top: 40px;
-text-align: justify;
- font-size: medium;
-
+.cardSecond {
+  margin-top: 40px;
+  text-align: justify;
+  font-size: medium;
 }
-.para{
+.para {
   color: #fff;
 }
 /* Custom styles for the Slick carousel */
 .Testimonial-card {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
-  .AboutTeamHeader{
-    /* color: #ef443b;
+.AboutTeamHeader {
+  /* color: #ef443b;
     font-size: 64px;
     text-align: center;
     margin-top: 50px;
     font-family: sans-serif; */
-    text-align: left;
-    font-size: 55px;
-    font-weight: bold;
-    margin-top: 80px;
-    margin-bottom: 40px;
-
-  }
+  text-align: left;
+  font-size: 55px;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
 .Testimonial-card .slick-prev,
 .Testimonial-card .slick-next {
-    margin-right: -25px !important;
-    margin-left: -50px !important;
-    z-index: 2 !important;
+  margin-right: -25px !important;
+  margin-left: -50px !important;
+  z-index: 2 !important;
 }
 
 .Testimonial-card .slick-prev:hover:before,
 .Testimonial-card .slick-prev:focus:before,
 .Testimonial-card .slick-next:hover:before,
 .Testimonial-card .slick-next:focus:before {
-    opacity: 1 !important;
-    color: #9494946e !important;
+  opacity: 1 !important;
+  color: #9494946e !important;
 }
 
 .Testimonial-card .slick-prev:before,
 .Testimonial-card .slick-next:before {
-    font-size: 40px !important;
-    opacity: 0.15 !important;
-    color: #b4b4b4 !important;
+  font-size: 40px !important;
+  opacity: 0.15 !important;
+  color: #b4b4b4 !important;
 }
 
 .Testimonial-card .slick-dots {
-    bottom: 10px !important;
-    left: 40px !important;
+  bottom: 10px !important;
+  left: 40px !important;
 }
 
 .Testimonial-card .slick-dots li button:before {
-    color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .Testimonial-card .slick-dots li.slick-active button:before {
-    color: rgb(255, 255, 255) !important;
-    font-size: 12px !important;
+  color: rgb(255, 255, 255) !important;
+  font-size: 12px !important;
 }
 
-.subHeaders{
-    text-align: left;
-    font-size: 55px;
-    font-weight: bold;
-    margin-top: 80px;
-    margin-bottom: 40px;
+.subHeaders {
+  text-align: left;
+  font-size: 55px;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
-.main-header{
-    font-size: 85px;
+.main-header {
+  font-size: 85px;
 }
-.Whatmakes-contents{
-    padding: 0px 200px 0px 200px;
+.Whatmakes-contents {
+  padding: 0px 200px 0px 200px;
 }
 .contents{
     color: #b4b4b4;
-    text-align: justify;
+    text-align: left;
+    font-size: 20px;
 }
-
 
 @media only screen and (min-width: 1240px) {
-.Testimonial-card .slick-dots{
+  .Testimonial-card .slick-dots {
     display: flex !important;
     background-color: #3232324a !important;
-    transform: translateX(495px)translateY(50px) !important;
+    transform: translateX(495px) translateY(50px) !important;
     width: fit-content !important;
     border-radius: 20px !important;
-}
+  }
 }
 
 @media only screen and (max-width: 768px) {
-.cardMain{
+  .cardMain {
     padding: 20px;
-}
-.para, .cardUserName, .cardUserProfession{
+  }
+  .para,
+  .cardUserName,
+  .cardUserProfession {
     font-size: small;
-}
-.para{
-    margin-bottom: 40px ;
-}
+  }
+  .para {
+    margin-bottom: 40px;
+  }
 
-.Whatmakes-contents{
+  .Whatmakes-contents {
     padding: 0px 20px 0px 20px;
-}
-.Testimonial-card .slick-dots {
+  }
+  .Testimonial-card .slick-dots {
     bottom: -50px !important;
     width: fit-content;
-  
-}
   }
+}

@@ -8,7 +8,7 @@ const cards = [
     img: Competitor,
     title: "Competitor Analysis",
     description:
-      "Stay ahead of the curve with data-driven insights. Our marketing analytics and strategy sservices ensure your campaigns are effective and impactful.",
+      "Stay ahead of the curve with data-driven insights. Our marketing analytics and strategy services ensure your campaigns are effective and impactful.",
   },
   {
     img: Branding,

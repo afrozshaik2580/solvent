@@ -27,15 +27,17 @@ export default function ContactSection() {
             <div className="m-2">
               <p>
                 <FontAwesomeIcon icon={faPhone} />
-                +1012 3456 789
+                &nbsp; +91 (824) 740-8127
               </p>
               <p>
                 <FontAwesomeIcon icon={faEnvelope} />
-                demo@gmail.com
+                &nbsp;&nbsp; Contact@teksolvent.com
               </p>
               <p>
                 <FontAwesomeIcon icon={faLocationDot} />
-                132 Dartmouth Street Boston, Massachusetts 02156 United States
+              &nbsp;&nbsp; 24th Main 2nd Cross, Sector 1,
+HSR Layout, Bengaluru,
+Karnataka 560102
               </p>
             </div>
           </div>

@@ -3,13 +3,13 @@ import "../styles/ContactUs.css";
 export default function ContactUs() {
   const placeHolders = [
     {
-      name: "Name"
+      name: "Name",
     },
     {
-      name: "Phone no",
+      name: "Mobile no",
     },
     {
-      name: "Location",
+      name: "Email Id",
     },
   ];
   return (
@@ -39,7 +39,8 @@ export default function ContactUs() {
                 <div className="addressSection">
                   <h4>Company Address:</h4>
                   <p>
-                    24th Main 2nd Cross, Sector 1, HSR Layout, Bengaluru,
+                    24th Main 2nd Cross, Sector 1,<br /> 
+                    HSR Layout, Bengaluru,<br />
                     Karnataka 560102
                   </p>
                 </div>

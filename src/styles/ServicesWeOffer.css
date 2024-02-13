@@ -139,6 +139,7 @@ position: relative;
     }
     .folder-icon{
         width: auto;
+        height: 245px;
         margin: 0px 10px 0px 10px;
     }
     .imageText{
@@ -149,6 +150,7 @@ position: relative;
     .folderCardImage {
         width: 140px;
         height: 140px;
+        margin-top: 20px;
     }
     .AnimatedCard{
         width: auto;

@@ -15,7 +15,10 @@ export default function GetStarted() {
           </p>
           {/* <p className='fnt-sz2'>
             harum nesciunt ipsum debitis</p> */}
-          <p className="rd-clr mr-sp fnt-sz3"> EMBARK ON A JOURNEY OF INNOVATION</p>
+          <p className="rd-clr mr-sp fnt-sz3">
+            {" "}
+            EMBARK ON A JOURNEY OF INNOVATION
+          </p>
           <div className="mr-sp">
             {/* <button className="btn bt-gt"> GET STARTED</button>
   <button className="btn bt-gt2">READ MORE</button> */}
@@ -34,7 +37,7 @@ export default function GetStarted() {
     READ MORE
     </button> */}
           </div>
-          <p className="mr-sp mb-4 fnt-we">We accept</p>
+          <p className="mr-sp mb-4 fnt-we">We Accept</p>
           <div className="dp-gt2 fnt-sz4">
             <div className="dp-gt">
               <img
